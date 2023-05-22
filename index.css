@@ -1,0 +1,82 @@
+.first{
+    display: flex;
+}
+.text1{
+    background-color: indigo;
+    margin: 10px 10px 10px 0px;
+    color: white;
+    width: 500px;
+    padding: 20px;
+    padding-bottom: 30px
+}
+.opace{
+    opacity: 0.5;
+}
+.text2{
+    background-color: whitesmoke;
+    margin: 10px 10px 10px 0px;
+    width: 300px;
+    color: black;
+    box-shadow: inset;
+    padding: 8px;
+}
+.text3{
+    background-color: whitesmoke;
+    margin: 10px 10px 10px 0px;
+    padding: 20px;
+    position: relative;
+    right: 170px;
+}
+.text4{
+    background-color: rgb(43, 42, 42);
+    margin: 10px 10px 10px 0px;
+    width: 290px;
+    color: white;
+    padding: 20px;
+    padding-bottom: 2px;
+    margin-left: 10px;
+}
+.text5{
+    background-color: black;
+    margin: 10px 10px 10px 0px;
+    width: 500px;
+    color: white;
+    padding: 20px ;
+    position: relative;
+    right: 200px;
+}
+.myphoto{
+    border-radius: 50%;
+    width: 50px;
+    margin: 10px 30px 0px 0px;
+}
+.photo{
+    display: flex;
+}
+@media (max-width: 992px)  {
+    .first{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .text3{
+        position: relative;
+        right: 0px;
+        width: 80%;
+        align-items: center;
+    }
+    .text5{
+        position: relative;
+        right: 0px;
+        width: 100%;
+        width: 80%;
+        align-items: center;
+    }
+    .text1, .text2, .text4{
+        margin: 0px;
+        width: 80%;
+        margin-bottom: 15px;
+        align-items: center;
+    }
+}
