@@ -1,5 +1,12 @@
-.first{
+/* .first{
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firster{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .text1{
     background-color: indigo;
@@ -66,6 +73,12 @@
         justify-content: center;
         flex-wrap: wrap;
     }
+    .firster{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
     .text3{
         position: relative;
         right: 0px;
@@ -82,4 +95,156 @@
         width: 80%;
         margin-bottom: 15px;
     }
+} 
+ */
+ /* ============pour gerer les positions================= */
+ .premier{
+    display: flex;
+    width: 100%;
+     gap: 30px;
+     margin-bottom: 30px;
+ }
+ .deuxieme{
+    display: flex;
+    width: 100%;
+     gap: 30px;
+ }
+ .first{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+ }
+ /* ===============popur les divs========================= */
+.text1{
+    background-color: indigo;
+    /* margin: 10px 10px 10px 0px; */
+    color: white;
+    width: 70%;
+    /* padding: 20px; */
+    /* padding-bottom: 30px; */
+    border-radius: 2%;
 }
+.text2{
+    background-color: whitesmoke;
+    /* margin: 10px 10px 10px 0px; */
+    width: 30%;
+    color: black;
+    /* box-shadow: inset;
+    padding: 8px; */
+    border-radius: 2%;
+}
+.text3{
+    background-color: whitesmoke;
+    /* margin: 10px 10px 10px 0px;
+    padding: 20px;
+    position: relative;
+    right: 170px; */
+    border-radius: 2%;
+    width: 100%;
+}
+.text4{
+    background-color: rgb(43, 42, 42);
+    /* margin: 10px 10px 10px 0px; */
+    width: 30%;
+    color: white;
+    /* padding: 20px;
+    padding-bottom: 2px;
+    margin-left: 10px; */
+    border-radius: 2%;
+}
+.text5{
+    background-color: black;
+    /* margin: 10px 10px 10px 0px; */
+    width: 70%;
+    color: white;
+    /* padding: 20px ; */
+    /* position: relative; */
+    /* right: 200px; */
+    border-radius: 2%;
+}
+/* =================== */
+.photo{
+    display: flex;
+}
+.myphoto{
+    width:50px;
+    padding: 10px;
+}
+.opace{
+    opacity: 0.5;
+}
+/* ===========pour la responsivite============= */
+/* @media (min-width: px)  {
+ .premier{
+    display: flex;
+    width: 100%;
+     gap: 30px;
+     margin-bottom: 30px;
+ }
+ .deuxieme{
+    display: flex;
+    width: 100%;
+     gap: 30px;
+ }
+ .first{
+    background-color: red;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+ }
+ .text1{
+    width: 75%;
+ }
+ .text2{
+    width: 25%;
+ }
+ .text3{
+    width: 100%;
+ }
+ .text4{
+    width: 75%;
+ }
+ .text5{
+    width: 25%;
+ }
+}  */
+/* ============================================== */
+@media (max-width: 562px)  {
+     .premier{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+     gap: 30px;
+     margin-bottom: 30px;
+ }
+ .deuxieme{
+    display: flex;
+    width: 100%;
+     gap: 30px;
+      flex-direction: column;
+ }
+ .first{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+     flex-direction: column;
+ }
+ .text1{
+    width: 100%;
+ }
+ .text2{
+    width: 100%;
+ }
+ .text3{
+    width: 100%;
+ }
+ .text4{
+    width: 100%;
+ }
+ .text5{
+    width: 100%;
+ }
+} 
