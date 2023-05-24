@@ -108,12 +108,14 @@
      .premier{
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 100%;
      gap: 30px;
      margin-bottom: 30px;
  }
  .deuxieme{
     display: flex;
+    align-items: center;
     width: 100%;
      gap: 30px;
       flex-direction: column;
@@ -122,22 +124,28 @@
     display: flex;
     width: 100%;
     justify-content: center;
+    align-items: center;
     gap: 30px;
      flex-direction: column;
  }
  .text1{
-    width: 100%;
+    width: 90%;
+    padding: 5px;
  }
  .text2{
-    width: 100%;
+    width: 90%;
+    padding: 5px;
  }
  .text3{
-    width: 100%;
+    width: 90%;
+    padding: 5px;
  }
  .text4{
-    width: 100%;
+    width: 90%;
+    padding: 5px;
  }
  .text5{
-    width: 100%;
+    width: 90%;
+    padding: 5px;
  }
 } 
